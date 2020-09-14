@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class IfElse{
+public static boolean positive(int number){
+		if(number >= 0){
+		      return true;
+		} 
+    else {
+		      return false;
+		}
+	}
+public static void main(String[] args){
+System.out.print("Enter Number: ");
+Scanner sc=new Scanner(System.in);
+		int number = sc.nextInt();
+		if(positive(number)){
+    System.out.println("Number is positive!");
+		} 
+    else {
+		System.out.println("Number is negative!");
+		}
+	}
+}
